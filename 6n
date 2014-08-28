@@ -18,4 +18,4 @@ for i in s:
 print('\n')
 
 # 3. Или так:
-print ("".join(list(i for i in s if s.index(i)%3!=0)))
+print ("".join([i for i in s if s.index(i)%3!=0]))
