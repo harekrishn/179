@@ -1,0 +1,24 @@
+"""
+Дана строка. Удалите из этой строки все символы @.
+"""
+
+# 1.
+s="@blablabla-@tralala@-kukuku@"
+new=""
+for i in s:
+	if i is not "@":
+		new+=i
+print(new)
+
+# 2.
+s="@blablabla-@tralala@-kukuku@"
+new=[]
+for i in s:
+	if i!="@":
+		new.append(i)
+x="".join(new)
+print(x)
+
+# 3.
+s="@blablabla-@tralala@-kukuku@"
+print("".join([i for i in s if i is not "@"]))
