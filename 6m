@@ -23,3 +23,9 @@ for i in s:
 	if s.index(i)<len(s)-1:
 		new+="*"
 print(new)
+
+# 3. Через список, с лямбдой
+s="0123456789"
+new=[]
+new="*".join(list(map(lambda i: i, list(s))))
+print(new)
