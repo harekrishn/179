@@ -19,3 +19,16 @@ print('\n')
 
 # 3. Или так:
 print ("".join([i for i in s if s.index(i)%3!=0]))
+
+# 4. 
+
+s=input()
+s1 = ''
+a = 0
+for x in range(len(s)):
+    if x%3 == 0:
+        pass
+    else:
+        s1 = s1 + s[x]
+
+print (s1)
